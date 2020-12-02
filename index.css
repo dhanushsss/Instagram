@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+/*Navbar*/
+.navbar{
+
+    background-color:white;
+    border-bottom: solid 1px;
+}
+.bar{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.main{
+    flex-direction: row;
+    text-align: center;
+}
+.insta-img{
+    max-height: 100px;
+    max-width: 100px;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.direct-img {
+    margin-top: 10px;
+    position: relative;
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.search-img{
+    margin-top: 10px;
+    position: relative;
+    max-height: 30px;
+    max-width: 30px;
+    margin-right: 10px;
+
+}
+.logo{
+    float:right;
+    display: flex;
+}
+.cam-img{
+    margin-top: 10px;
+    float: left;
+    position: relative;
+    max-height: 30px;
+    max-width: 30px;
+}
+
+/*mid*/
+.mid{
+    background-color: #fff;
+    border-top: 100px;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+
+}
+
+/*Footer*/
+footer {
+    position: fixed;
+    left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+.foot{
+    background-color:white;
+    border-top: solid 1px;
+    height:50px;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
+.l{
+    flex-direction: row;
+    text-align: center;
+}
+.ins {
+    margin-top: 10px;
+    position: relative;
+    height: 30px;
+}
+
+.l{
+    float:none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 0;
+}
+.container{
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
